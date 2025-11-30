@@ -16,8 +16,8 @@ jobs:
     secrets: inherit
     with:
       image-name: ${{ github.event.repository.name }}
-      aws-account-id: "381492231891"
-      aws-region: us-east-1
+      aws-account-id: "891377055161"
+      aws-region: ap-southeast-1
       service-type: codeland-api
 
   deploy-codeland-api:
@@ -27,6 +27,6 @@ jobs:
     secrets: inherit
     with:
       image-name: ${{ github.event.repository.name }}
-      aws-account-id: "381492231891"
-      aws-region: us-east-1
+      aws-account-id: "891377055161"
+      aws-region: ap-southeast-1
       service-type: codeland-api
